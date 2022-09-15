@@ -12,6 +12,7 @@ pipeline {
                 url: 'https://github.com/chakri1311/website_CICD.git'
 
                  sh "ls -lat"
+                echo "Hello world"
             }
         }
         stage('maven_build') {
